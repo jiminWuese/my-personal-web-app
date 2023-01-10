@@ -1,4 +1,3 @@
-import './app.scss';
 import About from './components/about/About';
 import Experience from './components/experience/Experience';
 import Header from './components/header/Header';
@@ -10,8 +9,7 @@ import Contact from './components/contact/Contact';
 
 function App() {
   return (
-    <div className="app">
-      <h1>Hello World</h1>
+    <div className="app"> 
        <Header />
        <Nav />
        <About />
