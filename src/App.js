@@ -1,11 +1,25 @@
 import './app.scss';
+import About from './components/about/About';
+import Experience from './components/experience/Experience';
+import Header from './components/header/Header';
+import Nav from './components/nav/Nav';
+import Portfolio from './components/portfolio/Portfolio';
+import Services from './components/services/Services';
+import Testimonials from './components/testimonials/Testimonials';
+import Contact from './components/contact/Contact';
 
 function App() {
   return (
     <div className="app">
-      <h1>Hello World, <br />
-      I am creating my portfolio web app</h1>
-      <h2>This will be my first lunched project as a developer😀.</h2>
+      <h1>Hello World</h1>
+       <Header />
+       <Nav />
+       <About />
+       <Experience />
+       <Services />
+       <Portfolio />
+       <Testimonials />
+       <Contact />
     </div>
   );
 }
