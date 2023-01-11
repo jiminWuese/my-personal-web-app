@@ -1,9 +1,12 @@
 import React from 'react'
 import './about.scss';
 
+
 const About = () => {
   return (
-    <div>About</div>
+    <section id="about">
+      <h1>Hello World</h1>
+    </section>
   )
 }
 
