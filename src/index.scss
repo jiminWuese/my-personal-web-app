@@ -28,7 +28,7 @@
    //Container Widths
    --container-width-lg: 75%;
    --container-width-md: 86%;
-   --container-width-ms: 90%;
+   --container-width-ms: 85%;
 }
 
 //Make the scrolling smooth.
@@ -68,7 +68,8 @@ h1{
 //Section styles
 section {
    margin-top: 8rem;
-   height: 100vh;
+   //height: 100vh;
+   height: fit-content;
 
    h2, h5 {
       text-align: center;
