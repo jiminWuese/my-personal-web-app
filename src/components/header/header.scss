@@ -1,3 +1,10 @@
+// #logo{
+//     position: absolute;
+//     width: 10%;
+//     top: 0;
+//     left: 0;
+// }
+
 header{
     height: fit-content;
     padding-top: 4rem;
@@ -51,7 +58,7 @@ header{
     position: relative;
     left: calc(50% - 11rem);
     margin-top: 2rem;
-    border-radius: 12rem 12rem 0  0;
+    border-radius: 12rem 0 0  0;
     overflow: hidden;
     padding-top: 2rem;
     img{

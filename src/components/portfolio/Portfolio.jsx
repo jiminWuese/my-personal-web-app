@@ -2,6 +2,8 @@ import React from "react";
 import "./portfolio.scss";
 import img1 from "../../assets/uiPhone.png";
 import img2 from "../../assets/headerLandingPage.png";
+import img3 from "../../assets/webHeader.PNG";
+import img4 from "../../assets/userPage.PNG";
 
 const Portfolio = () => {
   return (
@@ -32,7 +34,7 @@ const Portfolio = () => {
           <div className="portfolio__item-image">
             <img src={img2} alt="" />
           </div>
-          <h3>UI/UX Designs </h3>
+          <h3>Landing Page </h3>
           <div className="portfolio__item-cta">
             <a href="https://github.com" className="btn" target="_blank">
               Github
@@ -48,9 +50,9 @@ const Portfolio = () => {
         </article>
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <img src={img1} alt="" />
+            <img src={img3} alt="" />
           </div>
-          <h3>UI/UX Designs </h3>
+          <h3>Portfolio Header </h3>
           <div className="portfolio__item-cta">
             <a href="https://github.com" className="btn" target="_blank">
               Github
@@ -66,9 +68,9 @@ const Portfolio = () => {
         </article>
         <article className="portfolio__item">
           <div className="portfolio__item-image">
-            <img src={img2} alt="" />
+            <img src={img4} alt="" />
           </div>
-          <h3>UI/UX Designs </h3>
+          <h3>User Page </h3>
           <div className="portfolio__item-cta">
             <a href="https://github.com" className="btn" target="_blank">
               Github

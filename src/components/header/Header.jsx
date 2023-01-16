@@ -3,10 +3,12 @@ import './header.scss';
 import CTA from './CTA';
 import ME from '../../assets/me.png'
 import HeaderSocials from './HeaderSocials';
+//import logo from '../../assets/logo.png';
 
 const Header = () => {
   return (
     <header id='#'>
+      {/* <img id="logo" src={logo} alt="" /> */}
       <div className="container header__container">
         <div className="header__left">
           <div className="me">
