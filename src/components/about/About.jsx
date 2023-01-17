@@ -42,7 +42,7 @@ const About = () => {
           </div>
 
           <p>
-            I have a strong background mathemtics and web development,
+            One with a strong background in mathemtics and web development,
              and I am excited to use my skills to help
             students succeed and develop applications that are user-friendly and
             visually appealing.
