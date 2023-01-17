@@ -13,6 +13,13 @@ const Experience = () => {
         <div className="skill__set">
           <h3>Web Developer</h3>
           <div className="experience__content">
+          <article className="experience__detail">
+              <BsShieldFillCheck className='experience__icon-detail'/>
+              <div>
+                <h4>UI/UX</h4>
+                <small className="text-light">Experienced</small>
+              </div>
+            </article>
             <article className="experience__detail">
               <BsPatchCheckFill className='experience__icon-detail'/>
               <div>
@@ -23,7 +30,7 @@ const Experience = () => {
             <article className="experience__detail">
               <BsPatchCheckFill className='experience__icon-detail'/>
               <div>
-                <h4>CSS/SASS</h4>
+                <h4>CSS</h4>
                 <small className="text-light">Experienced</small>
               </div>
             </article>
@@ -41,13 +48,7 @@ const Experience = () => {
                 <small className="text-light">Experienced</small>
               </div>
             </article>
-            <article className="experience__detail">
-              <BsShieldFillCheck className='experience__icon-detail'/>
-              <div>
-                <h4>UI/UX</h4>
-                <small className="text-light">Experienced</small>
-              </div>
-            </article>
+            
             {/* <article className='experience'>
               <BsShieldFillCheck />
               <h4>Redux</h4>
